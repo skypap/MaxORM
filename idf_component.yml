@@ -1,12 +1,9 @@
 version: 0.0.1
-
+name: MaxORM
 description: Embedded ORM super cool de max
 
-#url: https://github.com/igrr/pa1010d
-#issues: https://github.com/igrr/pa1010d/issues
-#documentation: https://github.com/igrr/pa1010d/tree/main/README.md
-#repository: https://github.com/igrr/pa1010d.git
-
+#targets:
+#  - esp32s3
 maintainers:
   - "Maxime Papillon <mpapillon@jygatech.com.com>"
 
@@ -14,6 +11,6 @@ dependencies:
   # Requires i2c_master_read_from_device added in v4.4
   idf: ">=4.4.7"
   espressif/arduino-esp32:
-    #version: "2.0.14"
-    override_path: 'components/arduino-esp32'
+#    version: ">=2.0.14"
+    override_path: '../arduino-esp32'
 

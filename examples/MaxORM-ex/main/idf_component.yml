@@ -1,0 +1,7 @@
+dependencies:
+#  target:
+#    - esp32s3
+  MaxORM:
+    version: "*"
+    override_path: '../../../'
+#    override_path: '../../../'

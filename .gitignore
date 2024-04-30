@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+/examples/MaxORM-example/cmake-build-debug-esp-idf447/
+/examples/MaxORM-example/.idea/
+/examples/MaxORM-ex/build/
+/examples/MaxORM-ex/cmake-build-default-esp-idf447/
+/examples/MaxORM-ex/.idea/
+/examples/MaxORM-ex/dependencies.lock
+/examples/MaxORM-ex/sdkconfig.old

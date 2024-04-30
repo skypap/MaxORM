@@ -1,4 +1,0 @@
-dependencies:
-  MaxORM447:
-    version: "*"
-    override_path: '../../../'
