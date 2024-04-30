@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/MaxORM447",
+		"source" : "/home/maxime/Documents/GitHub/JygaComponents/MaxORM447"
+	}
+}

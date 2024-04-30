@@ -1,0 +1,7 @@
+source "/home/maxime/Documents/GitHub/esp/esp-idf-4.4.7/components/app_update/Kconfig.projbuild"
+source "/home/maxime/Documents/GitHub/esp/esp-idf-4.4.7/components/bootloader/Kconfig.projbuild"
+source "/home/maxime/Documents/GitHub/esp/esp-idf-4.4.7/components/esp_rom/Kconfig.projbuild"
+source "/home/maxime/Documents/GitHub/esp/esp-idf-4.4.7/components/esptool_py/Kconfig.projbuild"
+source "/home/maxime/Documents/GitHub/esp/esp-idf-4.4.7/components/partition_table/Kconfig.projbuild"
+source "/home/maxime/Documents/GitHub/JygaComponents/MaxORM447/components/arduino-esp32/Kconfig.projbuild"
+source "/home/maxime/Documents/GitHub/JygaComponents/MaxORM447/Kconfig.projbuild"

@@ -1,0 +1,44 @@
+menu "MaxORM"
+
+config DB_NAME
+    string "Nom de la DB"
+    default "DefaultDB"
+    help
+        Donne un nom a votre DB
+
+config USING_PS_RAM
+    bool "using psram"
+    default y
+
+choice
+	bool "Choose DataBase location"
+        default DB_USE_SDCARD
+
+config DB_USE_SDCARD
+        bool "sd card"
+
+config DB_USE_LFS
+        bool "use on board little fs"
+endchoice
+
+config SD_MOSI_PIN
+    depends on DB_USE_SDCARD
+    int "mosi"
+    default 48
+
+config SD_MISO_PIN
+    depends on DB_USE_SDCARD
+    int "sd miso pin"
+    default 42
+
+config SD_CLK_PIN
+    depends on DB_USE_SDCARD
+    int "sd clock pin"
+    default 35
+
+config SD_CS_PIN
+    depends on DB_USE_SDCARD
+    int "sd cd pin"
+    default 45
+
+endmenu

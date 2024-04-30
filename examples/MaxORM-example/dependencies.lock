@@ -1,0 +1,21 @@
+dependencies:
+  MaxORM447:
+    component_hash: null
+    source:
+      path: /home/maxime/Documents/GitHub/JygaComponents/MaxORM447
+      type: local
+    version: '*'
+  espressif/arduino-esp32:
+    component_hash: null
+    source:
+      path: /home/maxime/Documents/GitHub/JygaComponents/MaxORM447/components/arduino-esp32
+      type: local
+    version: '*'
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 4.4.7
+manifest_hash: 8acc474e8cc1256f357d60e84f1341d9af3a85b1bf0a859f780f46bdddb8b357
+target: esp32s3
+version: 1.0.0
